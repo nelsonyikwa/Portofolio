@@ -904,6 +904,7 @@ a:hover {
 
 .service-box .s-description {
   color: #4e4e4e;
+
 }
 
 /*--------------------------------------------------------------
@@ -1459,4 +1460,71 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+.service-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.service-content {
+  flex: 1;
+}
+
+.service-box .s-description {
+  text-align: justify;
+  line-height: 1.7;
+  min-height: 110px;
+}
+#services .col-md-4 {
+  margin-bottom: 40px;
+}
+/* Samakan tinggi tampilan sertifikat */
+.work-img {
+  height: 220px;      /* bisa 220–260, sesuaikan selera */
+  overflow: hidden;
+}
+
+/* Supaya gambar tidak gepeng */
+.work-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Bikin semua card sejajar */
+.work-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Konten isi dorong ke bawah dengan rapi */
+.work-content {
+  flex: 1;
+}
+.row {
+  row-gap: 30px;
+}
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blog-card .card-body {
+  flex-grow: 1;
+}
+
+.blog-card .card-footer {
+  margin-top: auto;
+}
+
+/* Samakan tinggi gambar saja */
+.blog-card .card-img img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
 }
